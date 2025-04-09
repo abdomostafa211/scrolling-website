@@ -23,4 +23,4 @@ As part of my learning process, this project helps me:
 1. Clone this repository to your local machine.
    
    ```bash
-   git clone https://github.com/abdomostafa211/scrolling website.git
+   git clone https://github.com/abdomostafa211/scrolling-website.git
