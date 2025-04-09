@@ -1,0 +1,59 @@
+
+    body {
+  background: linear-gradient(#200016, #10001f);
+  min-height: 100vh; /* الأفضل من height فقط */
+  font-family: system-ui;
+  background-attachment: fixed; /* 👈 دي أهم سطر */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+    .space-info {
+  padding: 100px 20px;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+
+.space-card {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 25px;
+  padding: 30px;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  transition: transform 0.4s ease;
+}
+
+.space-card:hover {
+  transform: scale(1.03);
+}
+
+.space-card img {
+  width: 280px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.space-card .info {
+  color: #fff;
+}
+
+.space-card .info h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.space-card .info p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #ddd;
+}
+
